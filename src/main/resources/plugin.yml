@@ -1,0 +1,13 @@
+name: VanishTabFix
+version: 1.3
+main: me.fix.vanishtab.VanishTabFix
+api-version: "1.21"
+depend: [ProtocolLib, UltimateDonutSmp]
+softdepend: [PlaceholderAPI]
+commands:
+  vanishtab:
+    description: Shows VanishTabFix status
+    usage: /vanishtab
+permissions:
+  vanishtab.admin:
+    default: op
